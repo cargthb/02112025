@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #0d0d1a;
+  color: #eceff4;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+canvas {
+  border: 2px solid #1c2b3a;
+  image-rendering: pixelated;
+}
+
+.touch-container {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.touch-left,
+.touch-right,
+.touch-jump {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 40px;
+  background: rgba(236, 239, 244, 0.1);
+  pointer-events: auto;
+}
+
+div.touch-jump {
+  background: rgba(255, 209, 102, 0.2);
+}

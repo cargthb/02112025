@@ -1,0 +1,26 @@
+{
+  "name": "Level 1",
+  "width": 20,
+  "height": 12,
+  "tileSize": 16,
+  "tiles": {
+    "bg": [],
+    "solid": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129],
+    "oneWay": [],
+    "hazard": [125]
+  },
+  "entities": {
+    "player": { "x": 32, "y": 100 },
+    "enemies": [
+      { "type": "patroller", "x": 160, "y": 80 }
+    ],
+    "collectibles": [
+      { "type": "coin", "x": 96, "y": 60 },
+      { "type": "star", "x": 240, "y": 60 }
+    ],
+    "hazards": [
+      { "type": "spikes", "x": 200, "y": 96 }
+    ]
+  },
+  "goal": { "x": 280, "y": 60 }
+}
